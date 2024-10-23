@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    margin-top: 100px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    
+}
+.kun{
+    background-color: gold;
+    color: white    ;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: .5s;
+}
+.tun{
+    background-color: rgb(65, 65, 65);
+    color: white    ;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+    color: dodgerblue;
+    border-radius: 30px;
+}
